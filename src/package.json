@@ -1,0 +1,5 @@
+{
+  "browser": {
+    "./foo/bar": "./foo_bar.js"
+  }
+}

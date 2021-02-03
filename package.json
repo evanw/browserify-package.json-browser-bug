@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test-browserify": "browserify src/entry.js | node",
+    "test-webpack": "webpack ./src/entry.js --mode development && node dist/main.js"
+  },
+  "dependencies": {
+    "browserify": "17.0.0",
+    "webpack": "5.20.0",
+    "webpack-cli": "4.5.0"
+  }
+}
